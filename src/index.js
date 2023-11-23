@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: false }));
 //Sử dụng các route từ controllers
 const homeController = require('./resource/controllers/homeController');
 const userController = require('./resource/controllers/userController');
-    app.use('/', homeController);
+     app.use('/', homeController);
   app.use('/user', userController);
 
   app.listen(port, () =>

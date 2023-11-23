@@ -13,7 +13,7 @@
     "src/**/*.{js,json,scss}": "prettier --write --single-quote --trailing-comma all --tab-width 4"
   },
   "hooks": {
-    "pre-commit": "npm run beautifull"
+    "pre-commit": "lint-staged"
   },
   "repository": {
     "type": "git",
