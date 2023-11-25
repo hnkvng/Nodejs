@@ -1,9 +1,16 @@
 const express = require('express');
 const router = express.Router();
 
-// Route chính
-router.get('/', (req, res) => {
-    res.render('home');
-});
+// Điều khiển
 
-module.exports = router;
+class homeControllers {
+    //GET /home
+    index(rep, res) {
+        res.render('home');
+    }
+    add(rep, res) {
+        res.render('add');
+    }
+}
+
+module.exports = new homeControllers();

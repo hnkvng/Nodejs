@@ -1,2 +1,21 @@
-h1 {
-  color: red; }
+header {
+  display: flex;
+  justify-content: center; }
+
+.nav {
+  margin-top: 16px; }
+
+.content {
+  width: 100vw;
+  height: 100vh; }
+
+.table-responsive {
+  height: 600px; }
+
+.form-group {
+  padding: 10px; }
+
+.setup-button {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
