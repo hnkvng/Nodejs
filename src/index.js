@@ -24,7 +24,7 @@ app.set('views', path.join(__dirname, 'resource/views'));
 app.use(express.urlencoded({ extended: false }));
 
 //Sử dụng các route
-const route = require('./resource/routes');
+    const route = require('./resource/routes');
 route.route(app);
 
 app.listen(port, () =>
